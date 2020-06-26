@@ -7,6 +7,9 @@ html {
 body {
   overflow-x: hidden;
   overflow-y: hidden;
+  background-image: url('pozadi.jpg');
+  background-size: cover;
+  background-size: 200%;
 }
 
 a{
@@ -99,34 +102,38 @@ h2{
   padding: 10px;
   padding-top:20%;
 }
-
-.infoBox{
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 44% 44%;
-  font-size: 100px;
-  color: rgb(255, 255, 255);
-  margin-top: 30px;
-  margin-left: 30%;
-  margin-right: 30%;
-  height: 100%;
-  padding: 15px;
-  border: 1px solid rgb(255, 255, 255);
+@media only screen and (orientation:landscape) {
+  .infoBox{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 44% 44%;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    margin-top: 90px;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 100%;
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255);
+  }
 }
 
-.bg {
-  position: absolute;
-  left: -25vw;
-  top: -150px;
-  width: 200%;
-  height: 200%;
-  background-color: black;
-  background-image: url(https://papers.co/wallpaper/papers.co-vo00-abstract-dark-bw-dots-lines-pattern-6-wallpaper.jpg);
-  background-size: 100%;
-  z-index: -1;
-  -webkit-filter: blur(120px);
-  filter: blur(120px);
+@media only screen and (orientation:portrait) {
+  .infoBox{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 44% 44%;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    margin-top: 90px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255);
+  }
 }
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -158,55 +165,6 @@ span {
   margin-left: 2px;
   margin-right: 2px;
   font-size: 120px;
-}
-
-.c1 {
-    margin-top: 23vw;
-}
-
-.c2 {
-  margin-top: 28vw;
-}
-
-.c3 {
-  margin-top: 12vw;
-}
-
-.c4 {
-  margin-top: 20vw;
-}
-
-.c5 {
-  margin-top: 10vw;
-}
-
-.c6 {
-  margin-top: 30vw;
-}
-
-.c7 {
-  margin-top: 19vw;
-}
-
-.c8 {
-  margin-top: 35vw;
-}
-
-.c9 {
-    margin-top: 10vw;
-}
-
-.c10 {
-    margin-top: 15vw;
-}
-
-.c11 {
-    margin-top: 20vw;
-}
-
-audio { 
-    width: 96%; 
-    border-radius: 90px;
 }
 
 input[type=text] {
