@@ -21,7 +21,7 @@ a:hover{
     border: 1px solid rgba(255, 255, 255,1);
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (orientation:landscape) {
   .nadpis {
     display: flex;
     font-size: 100px;
@@ -49,12 +49,25 @@ a:hover{
     padding-bottom: 0;
     padding-right: 2%;
     float: top;
-    font-size: 32px;
+    font-size: 3vw;
     font-family: 'Manrope', sans-serif;
     color: rgb(255, 255, 255);
+  }
+  .podcastBox{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 12% 44% 44%;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 100%;
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255);
+  }
 }
-}
-@media only screen and (max-width: 800px) {
+@media only screen and (orientation:portrait) {
   .nadpis {
     size: 50%;
     display: flex;
@@ -83,10 +96,23 @@ a:hover{
     padding-bottom: 0;
     padding-right: 2%;
     float: top;
-    font-size: 32px;
+    font-size: 3vw;
     font-family: 'Manrope', sans-serif;
     color: rgb(255, 255, 255);
-}
+  }
+  .podcastBox{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 12% 44% 44%;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 255);
+  }
 }
 
 .spacer{
@@ -136,37 +162,7 @@ h2{
     grid-row: 3 ;
     padding: 0px;
 }
-@media only screen and (min-width: 800px) {
-.podcastBox{
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 12% 44% 44%;
-  font-size: 100px;
-  color: rgb(255, 255, 255);
-  margin-top: 30px;
-  margin-left: 25%;
-  margin-right: 25%;
-  height: 100%;
-  padding: 15px;
-  border: 1px solid rgb(255, 255, 255);
-}
-}
 
-@media only screen and (max-width: 800px) {
-  .podcastBox{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 12% 44% 44%;
-    font-size: 60px;
-    color: rgb(255, 255, 255);
-    margin-top: 30px;
-    margin-left: 15%;
-    margin-right: 15%;
-    height: 100%;
-    padding: 15px;
-    border: 1px solid rgb(255, 255, 255);
-  }
-  }
 
 /* width */
 ::-webkit-scrollbar {
