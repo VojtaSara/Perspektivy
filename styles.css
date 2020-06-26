@@ -109,6 +109,12 @@ a:hover{
   .c11 {
     margin-top: 20vw;
   }
+  .box {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 2vw;
+    font-family: 'Manrope', sans-serif; 
+}
 }
 @media only screen and (orientation:portrait) {
   .nadpis {
@@ -199,6 +205,12 @@ a:hover{
   .c11 {
     margin-top: 40vw;
   }
+  .box {
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 4vw;
+    font-family: 'Manrope', sans-serif; 
+  } 
 }
 
 .spacer{
@@ -218,13 +230,7 @@ h2{
     color: black;
 }
 
-.box {
-    color: rgb(255, 255, 255);
-    padding: 20px;
-    font-size: 4vw;
-    font-family: 'Manrope', sans-serif;
-    
-}
+
 
 .a {
     text-align: center;

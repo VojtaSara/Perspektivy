@@ -31,21 +31,36 @@ a:hover{
   color: rgb(255, 255, 255);
   justify-content: center;
 }
-
-.topnav{
-    position: fixed;
-    right: 20px;
-    padding: 2%;
-    text-align: right;
-    padding-top: 20px;
-    padding-bottom: 0;
-    padding-right: 2%;
-    float: top;
-    font-size: 2vw;
-    font-family: 'Manrope', sans-serif;
-    color: rgb(255, 255, 255);
+@media only screen and (orientation:portrait) {
+  .topnav{
+      position: fixed;
+      right: 20px;
+      padding: 2%;
+      text-align: right;
+      padding-top: 20px;
+      padding-bottom: 0;
+      padding-right: 2%;
+      float: top;
+      font-size: 4vw;
+      font-family: 'Manrope', sans-serif;
+      color: rgb(255, 255, 255);
+  }
 }
-
+@media only screen and (orientation:landscape) {
+  .topnav{
+      position: fixed;
+      right: 20px;
+      padding: 2%;
+      text-align: right;
+      padding-top: 20px;
+      padding-bottom: 0;
+      padding-right: 2%;
+      float: top;
+      font-size: 2vw;
+      font-family: 'Manrope', sans-serif;
+      color: rgb(255, 255, 255);
+  }
+}
 .spacer{
     height: 220px;
     margin-bottom: 100px;
