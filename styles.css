@@ -66,6 +66,49 @@ a:hover{
     padding: 15px;
     border: 1px solid rgb(255, 255, 255);
   }
+  .c1 {
+    margin-top: 23vw;
+  }
+  
+  .c2 {
+    margin-top: 28vw;
+  }
+  
+  .c3 {
+    margin-top: 12vw;
+  }
+  
+  .c4 {
+    margin-top: 20vw;
+  }
+  
+  .c5 {
+    margin-top: 10vw;
+  }
+  
+  .c6 {
+    margin-top: 30vw;
+  }
+  
+  .c7 {
+    margin-top: 19vw;
+  }
+  
+  .c8 {
+    margin-top: 35vw;
+  }
+  
+  .c9 {
+    margin-top: 10vw;
+  }
+  
+  .c10 {
+    margin-top: 15vw;
+  }
+  
+  .c11 {
+    margin-top: 20vw;
+  }
 }
 @media only screen and (orientation:portrait) {
   .nadpis {
@@ -113,6 +156,49 @@ a:hover{
     padding: 10px;
     border: 1px solid rgb(255, 255, 255);
   }
+  .c1 {
+    margin-top: 46vw;
+  }
+  
+  .c2 {
+    margin-top: 56vw;
+  }
+  
+  .c3 {
+    margin-top: 24vw;
+  }
+  
+  .c4 {
+    margin-top: 40vw;
+  }
+  
+  .c5 {
+    margin-top: 20vw;
+  }
+  
+  .c6 {
+    margin-top: 60vw;
+  }
+  
+  .c7 {
+    margin-top: 38vw;
+  }
+  
+  .c8 {
+    margin-top: 70vw;
+  }
+  
+  .c9 {
+    margin-top: 20vw;
+  }
+  
+  .c10 {
+    margin-top: 30vw;
+  }
+  
+  .c11 {
+    margin-top: 40vw;
+  }
 }
 
 .spacer{
@@ -135,7 +221,7 @@ h2{
 .box {
     color: rgb(255, 255, 255);
     padding: 20px;
-    font-size: 4vh;
+    font-size: 4vw;
     font-family: 'Manrope', sans-serif;
     
 }
@@ -185,49 +271,7 @@ background: rgb(212, 212, 212);
 }
 
 
-.c1 {
-  margin-top: 23vw;
-}
 
-.c2 {
-  margin-top: 28vw;
-}
-
-.c3 {
-  margin-top: 12vw;
-}
-
-.c4 {
-  margin-top: 20vw;
-}
-
-.c5 {
-  margin-top: 10vw;
-}
-
-.c6 {
-  margin-top: 30vw;
-}
-
-.c7 {
-  margin-top: 19vw;
-}
-
-.c8 {
-  margin-top: 35vw;
-}
-
-.c9 {
-  margin-top: 10vw;
-}
-
-.c10 {
-  margin-top: 15vw;
-}
-
-.c11 {
-  margin-top: 20vw;
-}
 
 audio { 
     width: 96%; 
