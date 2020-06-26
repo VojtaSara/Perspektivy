@@ -49,7 +49,7 @@ a:hover{
     padding-bottom: 0;
     padding-right: 2%;
     float: top;
-    font-size: 2vw;
+    font-size: 4vh;
     font-family: 'Manrope', sans-serif;
     color: rgb(255, 255, 255);
   }
@@ -96,7 +96,7 @@ a:hover{
     padding-bottom: 0;
     padding-right: 2%;
     float: top;
-    font-size: 3vw;
+    font-size: 4vh;
     font-family: 'Manrope', sans-serif;
     color: rgb(255, 255, 255);
   }
