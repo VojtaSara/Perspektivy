@@ -5,9 +5,9 @@ html {
 
 body {
   overflow-x: hidden;
-  background-image: url('pozadi.jpg');
+  background-image: url('wavy2.png');
   background-size: cover;
-  background-size: 200%;
+  background-size: 100%;
 }
 
 a{
@@ -116,7 +116,7 @@ a:hover{
 }
 
 .spacer{
-    height: 220px;
+    height: 15vw;
     margin-bottom: 100px;
 }
 
@@ -135,7 +135,7 @@ h2{
 .box {
     color: rgb(255, 255, 255);
     padding: 20px;
-    font-size: 40%;
+    font-size: 4vh;
     font-family: 'Manrope', sans-serif;
     
 }
@@ -186,47 +186,47 @@ background: rgb(212, 212, 212);
 
 
 .c1 {
-    margin-top: 23vmax;
+    margin-top: 13vh;
 }
 
 .c2 {
-  margin-top: 28vmax;
+  margin-top: 38vh;
 }
 
 .c3 {
-  margin-top: 12vmax;
+  margin-top: 17vh;
 }
 
 .c4 {
-  margin-top: 20vmax;
+  margin-top: 30vh;
 }
 
 .c5 {
-  margin-top: 10vmax;
+  margin-top: 19vh;
 }
 
 .c6 {
-  margin-top: 30vmax;
+  margin-top: 37vh;
 }
 
 .c7 {
-  margin-top: 19vmax;
+  margin-top: 24vh;
 }
 
 .c8 {
-  margin-top: 35vmax;
+  margin-top: 35vh;
 }
 
 .c9 {
-    margin-top: 10vmax;
+    margin-top: 24vh;
 }
 
 .c10 {
-    margin-top: 15vmax;
+    margin-top: 40vh;
 }
 
 .c11 {
-    margin-top: 20vmax;
+    margin-top: 15vh;
 }
 
 audio { 
