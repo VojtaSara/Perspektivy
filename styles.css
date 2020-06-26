@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@277&display=swap');
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
   overflow-x: hidden;
+  background-image: url('pozadi.jpg');
+  background-size: cover;
+  background-size: 200%;
 }
 
 a{
@@ -15,12 +17,30 @@ a{
     border: 1px solid rgb(255, 255, 255,0);
     transition: border 0.3s ease;
 }
-
 a:hover{
     border: 1px solid rgba(255, 255, 255,1);
 }
 
-.topnav{
+@media only screen and (min-width: 800px) {
+  .nadpis {
+    display: flex;
+    font-size: 100px;
+    align-items: flex-start;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+  }
+  span {
+    position: sticky;
+    top: calc(150px);
+    height: 100px;
+    display: inline-flex;
+    align-items: left;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 120px;
+  }
+  .topnav{
     position: fixed;
     right: 20px;
     padding: 2%;
@@ -33,13 +53,40 @@ a:hover{
     font-family: 'Manrope', sans-serif;
     color: rgb(255, 255, 255);
 }
-
-.nadpis {
-  display: flex;
-  font-size: 100px;
-  align-items: flex-start;
-  color: rgb(255, 255, 255);
-  justify-content: center;
+}
+@media only screen and (max-width: 800px) {
+  .nadpis {
+    size: 50%;
+    display: flex;
+    font-size: 100px;
+    align-items: flex-start;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+  }
+  span {
+    position: sticky;
+    top: calc(150px);
+    height: 100px;
+    display: inline-flex;
+    align-items: left;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 60px;
+  }
+  .topnav{
+    position: static;
+    right: 20px;
+    padding: 2%;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-right: 2%;
+    float: top;
+    font-size: 32px;
+    font-family: 'Manrope', sans-serif;
+    color: rgb(255, 255, 255);
+}
 }
 
 .spacer{
@@ -62,7 +109,7 @@ h2{
 .box {
     color: rgb(255, 255, 255);
     padding: 20px;
-    font-size: 40px;
+    font-size: 40%;
     font-family: 'Manrope', sans-serif;
     
 }
@@ -76,6 +123,7 @@ h2{
 .b {
     grid-column: 2 / 4 ;
     grid-row: 1;
+    padding: 20px;
 }
 .c {
     grid-column: 1 / 4 ;
@@ -88,7 +136,7 @@ h2{
     grid-row: 3 ;
     padding: 0px;
 }
-
+@media only screen and (min-width: 800px) {
 .podcastBox{
   display: grid;
   grid-gap: 10px;
@@ -96,25 +144,29 @@ h2{
   font-size: 100px;
   color: rgb(255, 255, 255);
   margin-top: 30px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
   height: 100%;
   padding: 15px;
   border: 1px solid rgb(255, 255, 255);
 }
-
-.bg {
-  position: absolute;
-  left: -25vw;
-  top: -50vw;
-  width: 150vw;
-  height: 200vw;
-  background-image: url(https://papers.co/wallpaper/papers.co-vo00-abstract-dark-bw-dots-lines-pattern-6-wallpaper.jpg);
-  background-size: cover;
-  z-index: -1;
-  -webkit-filter: blur(120px);
-  filter: blur(120px);
 }
+
+@media only screen and (max-width: 800px) {
+  .podcastBox{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 12% 44% 44%;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 100%;
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  }
 
 /* width */
 ::-webkit-scrollbar {
@@ -136,17 +188,6 @@ background: rgb(255, 255, 255);
 background: rgb(212, 212, 212);
 }
 
-span {
-  position: sticky;
-  top: calc(30% - 150px);
-  height: 100px;
-  display: inline-flex;
-  align-items: left;
-  font-family: 'Manrope', sans-serif;
-  margin-left: 2px;
-  margin-right: 2px;
-  font-size: 120px;
-}
 
 .c1 {
     margin-top: 23vw;
@@ -197,10 +238,6 @@ audio {
     border-radius: 90px;
 }
 
-iframe{
-  background-color: darkred;
-  color: #000;
-}
 
 
 
